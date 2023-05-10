@@ -1,0 +1,32 @@
+.statistics {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .stat_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .item {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .percentage {
+    font-size: 80px;
+  }
+  

@@ -1,0 +1,29 @@
+.transaction_history {
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    width: 900px;
+  }
+  
+  .head {
+    border-radius: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #87cefa;
+  }
+  
+  tr,
+  th,
+  td {
+    border: 1px solid #778899;
+    padding: 40px 0;
+  }
+  
+  .tbody_row {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .tbody_row:nth-child(2n) {
+    background-color: #e0ffff;
+  }
+  
